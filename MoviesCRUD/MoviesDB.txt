@@ -1,0 +1,43 @@
+CREATE DATABASE MoviesDB;
+GO
+
+USE MoviesDB;
+GO
+
+CREATE TABLE Nationalities (
+    ID INT PRIMARY KEY IDENTITY,
+    Name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Directors (
+    ID INT PRIMARY KEY IDENTITY,
+    FirstName VARCHAR(255) NOT NULL,
+    LastName VARCHAR(255) NOT NULL,
+    NationalityID INT,
+    FOREIGN KEY (NationalityID) REFERENCES Nationalities(ID)
+);
+
+CREATE TABLE Categories (
+    ID INT PRIMARY KEY IDENTITY,
+    Name VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Movies (
+    ID INT PRIMARY KEY IDENTITY,
+    MovieCategoryID INT,
+    Title VARCHAR(255) NOT NULL,
+    DirectorID INT,
+    DurationInMinutes INT,
+    YearOfRelease INT,
+    FOREIGN KEY (MovieCategoryID) REFERENCES Categories(ID),
+    FOREIGN KEY (DirectorID) REFERENCES Directors(ID)
+);
+
+CREATE TABLE MovieReviews (
+    ID INT PRIMARY KEY IDENTITY,
+    MovieID INT,
+    Score DECIMAL(3, 2),
+    ReviewDate DATE,
+    Comment TEXT,
+    FOREIGN KEY (MovieID) REFERENCES Movies(ID)
+);

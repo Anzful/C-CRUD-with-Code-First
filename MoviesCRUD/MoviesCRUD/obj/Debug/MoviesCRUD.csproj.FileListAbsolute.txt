@@ -1,0 +1,15 @@
+D:\MoviesCRUD\MoviesCRUD\bin\Debug\MoviesCRUD.exe.config
+D:\MoviesCRUD\MoviesCRUD\bin\Debug\MoviesCRUD.exe
+D:\MoviesCRUD\MoviesCRUD\bin\Debug\MoviesCRUD.pdb
+D:\MoviesCRUD\MoviesCRUD\obj\Debug\MoviesCRUD.csproj.AssemblyReference.cache
+D:\MoviesCRUD\MoviesCRUD\obj\Debug\MoviesCRUD.Form1.resources
+D:\MoviesCRUD\MoviesCRUD\obj\Debug\MoviesCRUD.Properties.Resources.resources
+D:\MoviesCRUD\MoviesCRUD\obj\Debug\MoviesCRUD.csproj.GenerateResource.cache
+D:\MoviesCRUD\MoviesCRUD\obj\Debug\MoviesCRUD.csproj.CoreCompileInputs.cache
+D:\MoviesCRUD\MoviesCRUD\obj\Debug\MoviesCRUD.exe
+D:\MoviesCRUD\MoviesCRUD\obj\Debug\MoviesCRUD.pdb
+D:\MoviesCRUD\MoviesCRUD\bin\Debug\EntityFramework.dll
+D:\MoviesCRUD\MoviesCRUD\bin\Debug\EntityFramework.SqlServer.dll
+D:\MoviesCRUD\MoviesCRUD\bin\Debug\EntityFramework.xml
+D:\MoviesCRUD\MoviesCRUD\bin\Debug\EntityFramework.SqlServer.xml
+D:\MoviesCRUD\MoviesCRUD\obj\Debug\MoviesCRUD.csproj.CopyComplete
